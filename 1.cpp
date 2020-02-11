@@ -297,10 +297,14 @@ int main()
 			{
 				scanf("%s",e2);
 				if(strcmp(e2,name1)==0)
-					{pri(begin);} 
+					{pri(begin);
+					printf("\n");} 
 				else if(strcmp(e2,name2)==0)
-					{pri(begin1);}
-				
+					{pri(begin1);
+					printf("\n");}
+				else
+				{	printf("没说你看个锤子");
+					printf("\n");}
 			}
 }
 	
